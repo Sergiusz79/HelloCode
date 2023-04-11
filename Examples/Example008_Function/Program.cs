@@ -1,4 +1,5 @@
 ﻿//Добавили метод
+
 int Max(int arg1, int arg2, int arg3); //Подпрограмма (функция, метод)
 {
     int resalt = arg1;                 
@@ -6,6 +7,7 @@ if (arg2 > resalt) resalt = arg2;
 if (arg3 > resalt) resalt = arg3;      
 return resalt;                         
 }
+
 int a1 = 15;
 int b1 = 21;
 int c1 = 39;
