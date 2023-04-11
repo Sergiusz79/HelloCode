@@ -1,6 +1,6 @@
 ﻿//Добавили метод
 
-int Max(int arg1, int arg2, int arg3); //Подпрограмма (функция, метод)
+int Max(int arg1, int arg2, int arg3) //Подпрограмма (функция, метод)
 {
     int resalt = arg1;                 
 if (arg2 > resalt) resalt = arg2;      
@@ -41,8 +41,7 @@ int c3 = 33;
 
 int max = Max(Max(a1, b1, c1), Max(a2, b2, c2), Max(a3, b3, c3)); //Передача функции внутри аргумента
 
-Console.WriteLine(max1);
-Console.WriteLine(max2);
-Console.WriteLine(max3);
+// Console.WriteLine(max1);
+// Console.WriteLine(max2);
+// Console.WriteLine(max3);
 Console.WriteLine(max);
-
