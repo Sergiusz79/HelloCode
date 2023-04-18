@@ -7,6 +7,13 @@ int index = 0;
 
 while (index < n )
 {
-
+    if(array[index] == find)
+    {
+        Console.WriteLine(index);
+        break;  //Если у нас будет несколько одинаковых элементов, наш алгоритм покажет их все
+                //чтобы этого избежать просто добавляется break («прервать»):
+    }
     index++;
 }
+
+
